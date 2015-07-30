@@ -80,7 +80,6 @@
     color: black;
     text-align:center;
 }
-
 .billquantities a, .centquantities a {
     background-color: #F8F8F8;
     display: inline-block;
@@ -99,7 +98,6 @@
     color: black;
     text-align:center;
 }
-
 .billquantitiesactive {
     background-color: #F8F8F8;
     display: inline-block;
@@ -134,11 +132,9 @@
 .hover {
     background-color: #DCDCDC;
 }
-
 .address-field {
     background-color: #E6E6E6;
 }
-
 .change {
     background-color: #F8F8F8;
     border-radius: 3px;
@@ -147,14 +143,12 @@
     font-size: 25px;
     color: #171717;
 }
-
 .changeRed {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 25px;
     color: red;
 }
-
 .changeGreen {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
