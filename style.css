@@ -8,6 +8,35 @@
 .wrap-div {
     padding-bottom: 20px;
 }
+.wrap-div-change {
+    padding-bottom: 20px;
+}
+.wrap-div-owe {
+    padding-right: 15px;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+.tax-radios input[type="radio"] {
+    display:none;
+    border-radius: 3px; 
+}
+.tax-radios input[type="radio"]:checked + label { 
+    background-color:#FFB2B2;
+}
+.tax-radios label {
+    padding: 5px;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #F8F8F8;
+    height: 45px;
+    width: 45px;
+    border-radius: 3px; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+    text-align: center;
+    padding-left: 5px;
+}
 #payamount {
     height: 45px;
     width: 280px;
@@ -49,9 +78,9 @@
     font-weight: 700;
 }
 
-#changeDisplay, #owe {
-    height: 20px;
-    width: 350px;
+#owe {
+    height: 45px;
+    width: 80px;
     background-color: #F8F8F8;
     border-radius: 3px;
     font-family: 'Open Sans', sans-serif;
@@ -63,6 +92,37 @@
     vertical-align: middle;
     color: red;
 }
+
+#tipDisplay {
+    height: 45px;
+    width: 340px;
+    background-color: #F8F8F8;
+    border-radius: 3px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 10px;
+    display: table-cell;
+    vertical-align: middle;
+    color: red;
+}
+
+#changeDisplay  {
+    height: 20px;
+    width: 350px;
+    background-color: #F8F8F8;
+    border-radius: 3px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 10px;
+    display: table-cell;
+    vertical-align: middle;
+    color: green;
+}
+
 #bills a, #billquantities a, #centquantities a {
     background-color: #F8F8F8;
     display: inline-block;
@@ -80,6 +140,7 @@
     color: black;
     text-align:center;
 }
+
 .billquantities a, .centquantities a {
     background-color: #F8F8F8;
     display: inline-block;
@@ -98,6 +159,7 @@
     color: black;
     text-align:center;
 }
+
 .billquantitiesactive {
     background-color: #F8F8F8;
     display: inline-block;
@@ -132,9 +194,11 @@
 .hover {
     background-color: #DCDCDC;
 }
+
 .address-field {
     background-color: #E6E6E6;
 }
+
 .change {
     background-color: #F8F8F8;
     border-radius: 3px;
@@ -143,12 +207,14 @@
     font-size: 25px;
     color: #171717;
 }
+
 .changeRed {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 25px;
     color: red;
 }
+
 .changeGreen {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;

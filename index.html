@@ -5,20 +5,40 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <body>
     <div id="cashreg">
-        <div class="wrap-div">
+        <div class="wrap-div-owe">
             <h3 class="label">You Owe</h3>
             <div id='owe' type='value'>
+            </div>
+        </div>
+
+        <div class='wrap-div-owe'>
+            <h3 class='label'>Tip</h3>
+            <div class='tax-radios'</div>
+                <input type='radio' id='0tip' name='radios' class='tax' value='all' checked>
+                    <label for='0tip'>0%</label>
+                <input type='radio' id='10tip' name='radios' class='tax' onclick='tenpercent();' value='false'>
+                    <label for='10tip'>10%</label>
+                <input type='radio' id='15tip' name='radios' class='tax' onclick='fifteenpercent();' value='false'>
+                    <label for='15tip'>15%</label>
+                <input type='radio' id='20tip' name='radios' class='tax' onclick='twentypercent();' value='false'>
+                    <label for='20tip'>20%</label>
+            </div>
+        </div>
+
+        <div class="wrap-div" id='tipTotal'>
+            <h3 class="label">Your total + tip</h3>
+            <div id="tipDisplay" class='change'>
             </div>
         </div>
 
         <div class="wrap-div">
             <h3 class="label">How much do you want to pay?</h3>
             <input id="payAmount" type='value' class='address_field' />
-            <button id="payButton" onclick="clearOff();payFunction();">Pay</button>
+            <input type='button' id="payButton" onclick="clearOff();payFunction();" value='Pay'>
         </div>
 
-        <div class="wrap-div">
-            <h3 class="label">Your Total Change</h3>
+        <div class="wrap-div-change" id='changeToggle'>
+            <h3 class="label">Your Change</h3>
             <div id="changeDisplay" class='change'>
             </div>
         </div>
@@ -66,6 +86,14 @@
             <a id='50left'></a><br>
             <a id="100left"></a>
         </div>
+
+        <div id="tips">
+            <h3 class="label">Tips</h3>
+            <p><strong>10%:</strong> <a id='tipof10'></a></p><br>
+            <a id='tipof15'></a><br>
+            <a id='tipof20'></a><br>
+        </div>
+
         <div class="wrap-div">
             <h3 class="label">PAID: <span class="green" id="paidDisplay"></span> | TOTAL: <span class="green" id="totalDisplay"></span></h3>
         </div>
