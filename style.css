@@ -1,0 +1,157 @@
+#cashreg {
+    margin: 0 auto;
+    width: 350px;
+    background-color: #E6E6E6;
+    border-radius: 3px;
+    padding: 15px;
+}
+.wrap-div {
+    padding-bottom: 20px;
+}
+#payamount {
+    height: 45px;
+    width: 280px;
+    background-color: #F8F8F8;
+    border-radius: 3px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 10px;
+    display: table-cell;
+    vertical-align: middle;
+    border:none;
+}
+#paybutton {
+    height: 45px;
+    width: 65px;
+    background-color: #F8F8F8;
+    border-radius: 3px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 2px;
+    display: table-cell;
+    vertical-align: middle;
+    border:none;
+}
+#paybuttonhover {
+    height: 45px;
+    width: 65px;
+    border-radius: 3px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #B2FFB2;
+    font-weight: 700;
+}
+
+#changeDisplay, #owe {
+    height: 20px;
+    width: 350px;
+    background-color: #F8F8F8;
+    border-radius: 3px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 10px;
+    display: table-cell;
+    vertical-align: middle;
+    color: red;
+}
+#bills a, #billquantities a, #centquantities a {
+    background-color: #F8F8F8;
+    display: inline-block;
+    width: 47px;
+    height: 24px;
+    border-radius: 3px;
+    padding: 3px;
+    margin-bottom: 16px;
+    margin-left: 2px;
+    font-size: 18px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: black;
+    text-align:center;
+}
+.billquantities a, .centquantities a {
+    background-color: #F8F8F8;
+    display: inline-block;
+    padding-top: 9px;
+    width: 47px;
+    height: 24px;
+    border-radius: 3px;
+    padding: 3px;
+    margin-bottom: 6px;
+    margin-left: 2px;
+    font-size: 18px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: black;
+    text-align:center;
+}
+.billquantitiesactive {
+    background-color: #F8F8F8;
+    display: inline-block;
+    padding-top: 9px;
+    width: 47px;
+    height: 24px;
+    border-radius: 3px;
+    padding: 3px;
+    margin-bottom: 6px;
+    margin-left: 2px;
+    font-size: 18px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: black;
+    text-align:center;
+}
+.green {
+    color: green;
+}
+.label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-color: #FFFFFF;
+    font-size: 22px;
+    letter-spacing: -1px;
+}
+.hover {
+    background-color: #DCDCDC;
+}
+.address-field {
+    background-color: #E6E6E6;
+}
+.change {
+    background-color: #F8F8F8;
+    border-radius: 3px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: #171717;
+}
+.changeRed {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: red;
+}
+.changeGreen {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: green;
+}
