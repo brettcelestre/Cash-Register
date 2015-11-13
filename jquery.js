@@ -1,13 +1,17 @@
 $(document).ready(function(){
-	/*
-	$("#payButton").click(function(){
-        $("#changeToggle").hide();
-    });
-	*/
+	$('#payAmount').keypress(function(e) {
+		if(e.which == 13) {
+		  $('#payButton').click();
+		}
+	});
+
+	$('#bills').hide();
+	$('#coins').hide();
 	$("#billquantities").hide();
 	$('#centquantities').hide();
 	$('#leftover').hide();
 	$('#tipTotal').hide();
+	$('#paidtotal').hide();
 	$('#tips').hide();
 
 	$('#0tip').click(function(){
@@ -25,9 +29,4 @@ $(document).ready(function(){
 	$('#20tip').click(function(){
 		$('#tipTotal').show(200);
 	});
-
-    $("#payButton").click(function(){
-        $("#billquantities").show(200);
-        $('#centquantities').show(200);
-    });
 });
