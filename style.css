@@ -16,9 +16,27 @@
     padding-bottom: 20px;
     display: inline-block;
 }
+.tr {
+    display: table-cell;
+    padding-right: 4px
+}
+.tax {
+    padding: 5px;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #F8F8F8;
+    height: 45px;
+    width: 42px;
+    border-radius: 3px; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+    text-align: center;;
+}
 .tax-radios input[type="radio"] {
     display:none;
     border-radius: 3px; 
+    padding-left: 5px
 }
 .tax-radios input[type="radio"]:checked + label { 
     background-color:#FFB2B2;
@@ -29,13 +47,12 @@
     vertical-align: middle;
     background-color: #F8F8F8;
     height: 45px;
-    width: 45px;
+    width: 42px;
     border-radius: 3px; 
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 19px;
-    text-align: center;
-    padding-left: 5px;
+    text-align: center;;
 }
 #payamount {
     height: 45px;
@@ -123,7 +140,7 @@
     color: green;
 }
 
-#bills a, #billquantities a, #centquantities a {
+#bills a, #billquantities a, #centquantities a, #coins a {
     background-color: #F8F8F8;
     display: inline-block;
     width: 47px;
@@ -143,6 +160,25 @@
 
 .billquantities a, .centquantities a {
     background-color: #F8F8F8;
+    display: inline-block;
+    padding-top: 9px;
+    width: 47px;
+    height: 24px;
+    border-radius: 3px;
+    padding: 3px;
+    margin-bottom: 6px;
+    margin-left: 2px;
+    font-size: 18px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: black;
+    text-align:center;
+}
+
+#coinage {
+    background-color: #E6E6E6;
     display: inline-block;
     padding-top: 9px;
     width: 47px;
